@@ -67,7 +67,15 @@ spring.jpa.hibernate.ddl-auto=none
 `````
 
 
+## Ferramentas utilizadas
 
+- JDK 11
+- STS
+- Postman
+- Git
+- Postgres
+- pgAdmin
+- Versão do maven 2.4.4
 
 
 

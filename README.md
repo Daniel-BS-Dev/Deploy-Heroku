@@ -1,4 +1,4 @@
-# Heroku-Deploy
+# Deploy-Heroku
 
 ## CI/CD padrão do Heroku
 ### 1. Criar projeto no Heroku, provisionar Postgres e instanciar base de dados

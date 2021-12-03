@@ -15,16 +15,20 @@
 
 ### 4. Configurar variáveis de ambiente no Heroku
 
+### variaveis do properties
 - APP_PROFILE
 - CLIENT_ID
 - CLIENT_SECRET
 - JWT_SECRET
 - JWT_DURATION
 
-- DB_URL
-- DB_USERNAME
-- DB_PASSWORD
+### variaveis do properties-prod
 
+````
+- DB_URL           VALUE jdbc:postgresql://hostDoHeroku:5432/baseDeDadosDoHeroku
+- DB_USERNAME      VALUE usuarioDoHeroku
+- DB_PASSWORD      VALUE senhaDoHeroku
+````
 ### 5. Realizar deploy
 
 #### Repositório comum:

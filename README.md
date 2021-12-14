@@ -1,7 +1,22 @@
 # Deploy-Heroku
 
 ## CI/CD padrão do Heroku
-### 1. mudar o perfil para dev Criar projeto no Heroku, provisionar Postgres e instanciar base de dados
+- mudar o perfil para dev 
+- rodar o app
+- pegar a creação do sql 
+- crear as tabelas no postgres
+- teste em nivel dev
+
+## prod
+
+- mudar perfil para prod
+
+### 3. Arquivo system.properties
+- java.runtime.version=11
+
+
+- mudar perfil para prod
+- novo commit
 
 ### 2. Associar o projeto local ao Github e ao Heroku
 
@@ -10,8 +25,7 @@
  - heroku git:remote -a nome-do-app
  - git remote -v
 
-### 3. Arquivo system.properties
-- java.runtime.version=11
+
 
 ### 4. Configurar variáveis de ambiente no Heroku
 
@@ -34,13 +48,10 @@ JWT_DURATION
 ### 5. Realizar deploy
 
 #### Repositório comum:
-- mudar perfil para prod
-- novo commit
 - git push heroku main
 
 #### Monorepositório (subpasta):
-- mudar perfil para prod
-- novo commit
+
 - git subtree push --prefix backend heroku main
 
 ## Arquivos de configuração

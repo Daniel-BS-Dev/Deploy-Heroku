@@ -14,8 +14,8 @@
 ### Arquivo system.properties
 - java.runtime.version=11
 - mudar perfil para prod
-- criar o banco no Postgres
-- instaciar o banco
+- criar o banco no Postgres com as variaveis do heroku
+- instanciar o banco
 - novo commit
 
 ### 2. Associar o projeto local ao Github e ao Heroku

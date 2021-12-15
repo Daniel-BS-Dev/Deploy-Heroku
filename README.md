@@ -1,6 +1,8 @@
 # Deploy-Heroku
 
-## CI/CD padrão do Heroku
+## 1. CI/CD padrão do Heroku
+
+## dev
 - mudar o perfil para dev 
 - rodar o app
 - pegar a creação do sql 
@@ -9,9 +11,7 @@
 
 ## prod
 
-- mudar perfil para prod
-
-### 3. Arquivo system.properties
+### Arquivo system.properties
 - java.runtime.version=11
 
 
